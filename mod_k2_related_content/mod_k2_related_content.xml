@@ -127,6 +127,8 @@
     			<option value="1">K2_BY_TAG</option>
           <option value="2">K2_BY_TAG_AND_CATEGORY</option>
           <option value="3">K2_BY_TAG_OR_CATEGORY</option>
+          <option value="3">K2_BY_TAG_OR_CATEGORY</option>
+            <option value="4">K2_BY_USER</option>
         </field>
         <field name="category_id" type="categoriesmultiple" default="" label="K2_SELECT_ONE_OR_MORE_CATEGORIES" description=""/>
         <field name="pTags" type="text" default="" label="K2_ITEMS_SPECIFIC_TAGS" description="" />
