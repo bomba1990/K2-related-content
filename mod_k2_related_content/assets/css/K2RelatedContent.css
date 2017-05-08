@@ -1,0 +1,81 @@
+/* CSS Document */
+div.k2ItemsRelatedListHoriz, div.k2ItemsRelatedListVerti{
+  /*float:left;*/
+}
+
+div.k2ItemsRelatedListHoriz ul, div.k2ItemsRelatedListVerti ul{
+  list-style-type: none;
+}
+  
+div.k2ItemsRelatedListHoriz ul li{
+  display:inline;
+  clear:both;
+}
+div.k2ItemsRelatedListVerti ul li{
+
+}
+
+a.k2ItemTitle{
+  text-decoration: none;
+}
+div.k2ItemsRelIntro{
+  text-align: justify;
+  font-style: italic;
+  padding:5px;
+}
+div.k2ItemsRelFulltext{
+  text-align: justify;
+  margin:5px;
+}
+span.k2ItemsCreated{
+  font-size:8px;
+}
+
+div.k2ItemsCategoryLink{
+  font-size:9px;
+}
+div.k2RelReadmore{
+}
+
+
+div.k2ItemImageleft, div.k2ItemImageright, div.k2ItemImagetop, div.k2ItemImagebottom{
+  margin:5px;  
+  padding:0px;
+}
+a.k2itemImageLink:link, a.k2itemImageLink:hover, a.k2itemImageLink:active, a.k2itemImageLink:visited{
+  background: none;
+  text-decoration: none;
+}
+
+img.k2ItemImage{
+  border:1px solid #aaa;
+  box-shadow:#aaa 2px 2px 3px;
+}
+
+div.k2ItemImageleft{
+  position: relative;
+  float:left;
+}
+div.k2ItemImageright{
+  position: relative;
+  float:right;
+}
+div.k2ItemImagetop{
+  
+}
+div.k2ItemImagebottom{
+  float:bottom;
+}
+
+div.k2ItemImgCaption{
+  background-image: url(../images/caption.png);
+  width:100%;
+  top:0px;
+  left:0px;
+  position:absolute;
+}
+
+div.k2ItemImgCaption h4{
+  color:#fff;
+  padding:5px;
+}
